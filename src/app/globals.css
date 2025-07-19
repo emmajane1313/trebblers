@@ -1,26 +1,74 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-azul: #072e48;
+  --color-red: #512f34;
+  --color-cielo: #0c0b70;
+  --color-oro: #938237;
+  --color-rojo: #560d11;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  background: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+html::-webkit-scrollbar-track:active {
+  background-color: transparent !important;
+  opacity: 0;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background-color: transparent !important;
+}
+
+div::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+div::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+div::-webkit-scrollbar-track:active {
+  background-color: transparent !important;
+  opacity: 0;
+}
+
+div::-webkit-scrollbar-thumb:active {
+  background-color: transparent !important;
+}
+
+div::-webkit-scrollbar {
+  width: 0.01rem;
+  height: 0.1rem;
+}
+
+div::-webkit-scrollbar {
+  width: 0.01rem;
+}
+
+div::-webkit-scrollbar-track:active {
+  background-color: #f3f6f7 !important;
+  opacity: 80%;
+  border-radius: 200px;
+}
+
+div::-webkit-scrollbar-thumb:active {
+  background-color: #cc0000 !important;
 }
