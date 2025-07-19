@@ -4,17 +4,17 @@ import Wrapper from "./components/modules/Wrapper";
 
 export const metadata: Metadata = {
   title: "Trebblers",
-  description: "",
+  description: "Di Trebblers zaynen tzurik.",
   metadataBase: new URL("https://trebblers.emancipa.xyz"),
   twitter: {
     card: "summary_large_image",
     creator: "@emmajane1313",
     title: "Trebblers",
-    description: "",
+    description: "Di Trebblers zaynen tzurik.",
   },
   openGraph: {
     title: "Trebblers",
-    description: "",
+    description: "Di Trebblers zaynen tzurik.",
   },
   robots: {
     googleBot: {
